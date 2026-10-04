@@ -31,6 +31,7 @@ I'll just report the content of the ppt presentation in English
 - This function takes as input the sampling rate, the sound itself, its total duration, the attack, decay, and release times (and, consequently, the sustain time indirectly) as percentages, and finally the relative amplitude of the sound during the sustain phase.
 - After converting the relative times into actual time values, it creates the envelope vector "E" and then multiplies it by (thereby applying it to) the original sound.
 - The use of `round()` functions is not strictly necessary in the provided code example, but it can prevent potentially intrusive warnings from appearing in the terminal.
+- ![ADSR effect](asdr.png)
 
 ## The function for creating the melody
 - This function identifies the code and duration for each pair representing a note.
